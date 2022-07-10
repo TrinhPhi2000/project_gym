@@ -30,7 +30,7 @@ const Exercises = ({ setExercises, bodyPart, exercises}) => {
   }, [bodyPart])
   const indexOfLastExercises = currentPage * exercisesPerPage
   const indexOfFirstExercises = indexOfLastExercises - exercisesPerPage
-  const currentExercises = exercises.slice(indexOfFirstExercises,indexOfLastExercises )
+  const currentExercises = exercises.slice(indexOfFirstExercises,indexOfLastExercises)
 
 
   return (
